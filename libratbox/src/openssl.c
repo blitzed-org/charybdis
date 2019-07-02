@@ -73,7 +73,7 @@ rb_ssl_shutdown(rb_fde_t *F)
 unsigned int
 rb_ssl_handshake_count(rb_fde_t *F)
 {
-	return F->handshake_count;
+	return 0;
 }
 
 void
